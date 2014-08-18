@@ -1,0 +1,26 @@
+pwd - print working directory
+	~ => /home/username unde username este user logat pe sistem
+
+ls - list
+	argumente: -la (list all)
+
+un argument e de de forma -<LITERA> (mereu incepe cu -)
+
+filename - nume de fisier normal
+.filename - nume de fisier hidden
+
+cd - change directory
+	argument: calea catre noua locatie
+				calea = absoluta / relativa
+
+
+.. => folder parinte
+.  => folder curent
+
+cat - afiseaza continutul unui fisier
+echo - afiseaza orice scrii dupa ea
+
+>, < => redirectare
+
+gcc - GNU C Compiler
+gcc fisier_sursa
