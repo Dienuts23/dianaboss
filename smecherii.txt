@@ -1,0 +1,30 @@
+operatori:
+
+&operand => adresa de memorie a operandului
+*operand => dereferentiere, extrage valoarea de la adresa din operand
+operand1[operand2] => *(operand1 + operand2)
+	ex: v[i] => *(v + i)
+structura.camp
+
+printf, scanf folosesc specificatori de forma:
+
+%d = int
+%c = char
+%s = string
+%f = float, double
+%p = (adrese de memorie) pointer
+
+
+tip_date *nume_var;
+
+sizeof(tip_date) sau sizeof(variabila) => dimensiunea in bytes a tipului/tipului variabile
+
+
+big endian: 1 = 00000001			1 (4 bytes): 10000000 00000000 00000000 00000000
+little endian: 1 = 10000000
+00000000 00000000 00000010 00000011
+
+"rt" read text
+"rb" reab binary
+"wt" write text
+"wb" write binary
